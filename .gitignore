@@ -1,0 +1,23 @@
+# Yerel ayarlar (SQL şifresi/sunucu adı içerebilir)
+settings.json
+
+# Videolar ve modeller
+data/*
+!data/.gitkeep
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Derleme çıktıları
+build/
+dist/
+*.exe
+*.spec
